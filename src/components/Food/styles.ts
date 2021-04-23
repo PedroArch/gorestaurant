@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components';
 
+interface FoodStyleProps {
+  available: boolean;
+}
+
 export const Container = styled.div`
   background: #f0f0f5;
   border-radius: 8px;
@@ -142,4 +146,5 @@ export const Container = styled.div`
       }
     }
   }
-`;
+`
+;
